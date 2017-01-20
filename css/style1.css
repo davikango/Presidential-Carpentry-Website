@@ -1,0 +1,806 @@
+
+/*--- Start index page --*/
+.framingPhoto {
+	margin: 0 auto;
+	width: 75%;
+}
+
+.framingPhoto img, .services img {
+	height: auto;
+	width: 100%;
+	border-radius: 25px;
+}
+
+
+.servicesDesc {
+	width: 18%;
+	margin-bottom: 2%;
+	margin-left: 41%;
+	font-family: 'Agency FB Bold', arial;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	letter-spacing: 5px;
+	text-decoration: underline;
+	color: black;
+	background-color: lightgrey;
+}
+
+#servicesTitle {
+	margin: 0 auto;
+	background-color: lightgrey;
+	width: 18%;
+	margin-bottom: 2%;
+}
+
+#servicesTitle h2{
+	font-family: 'Agency FB Bold', arial;
+	margin: 0 auto;
+	width: 100%;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 35px;
+	color: black;
+}
+
+/*--- End Index page --*/
+
+/*--- Begin about-us page --*/
+
+.whoWeAre {
+	float: left;
+	width: 36%;
+	height: auto;
+	overflow: hidden;
+	margin: 8% 2% 2% 4%;
+	padding-right: 1%;
+	padding-left: 1%;
+	background-color: lightgrey;
+}
+
+article {
+	font-size: 25px;
+}
+
+.whoWeAre h3 {
+	text-decoration: underline;
+	font-size: 30px;
+	width: 100%;
+	color: black;
+}
+
+.whoWeAre p {
+	font-size: 25px;
+	color: black;
+}
+
+.video {
+	float: left;
+	width: 50%;
+	height: 500px;
+	margin: 0 auto;
+	margin-bottom: 2%;
+}
+
+.video iframe {
+	width: 100%;
+	height: 100%;
+}
+
+/*--- End about-us page --*/
+
+/*--- Start Team page --*/
+.team {
+    margin: 0 1% 3% 5%;
+    border: 2px solid #ccc;
+    float: left;
+    width: 26%;
+}
+
+.team img {
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    padding: 15px;
+    text-align: center;
+	color: black;
+	background-color: lightgrey;
+}
+
+
+/*--- End Team page --*/
+
+/*--- Start Gallery page --*/
+
+/*--- End Gallery Page --*/
+
+/*---Start Contact Page --*/
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 0 auto;
+	margin-top: 3%;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.formDiv {
+	text-align:center;
+	background: url(../images/whiteandblack.png);
+	height: auto;
+	width: 40%;
+	float: left;
+	border: 2px solid black;
+	margin-left: 7%;
+	margin-bottom: 3%;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    resize: none;
+	margin: 0 auto:
+}
+input[type=submit] {
+    width: 30%;
+    background-color: #3B2925;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+	float: left;
+	margin: 2% 0 3% 6%;
+}
+
+input[type=submit]:hover {
+    background-color: darkgrey;
+}
+
+input[type=reset]:hover {
+    background-color: darkgrey;
+}
+
+input[type=reset] {
+	width: 30%;
+	float: right;
+    background-color: #3B2925;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+	margin: 2% 6% 0 0;
+	border-radius: 5px;
+}
+
+#formHeader {
+	font-family: agency fb bold;
+	font-size: 30px;
+	color: black;
+	background: url(../images/whiteandblack.png);
+	width: 40%;
+	border: 2px solid black;
+	border-bottom: 0;
+	margin-left: 7%;
+}
+
+.contactBottom {
+	background: url(../images/whiteandblack.png);
+	color: black;
+	width: 40%;
+	float: left;
+	margin: -7% 0 0 6%; 
+	font-family: 'Agency FB Bold', arial;
+	border: 2px solid black;
+}
+
+.contactBottom p{
+	color: black;
+}
+
+.contactBottom1 {
+	background: url(../images/whiteandblack.png);
+	width: 40%;
+	height: 357px;
+	float: left;
+	font-family: 'Agency FB Bold', arial;
+	margin: 6% 0 0 6%;
+	border: 2px solid black;
+}
+
+.contactBottom h3, .contactBottom1 h3 {
+	font-family: 'Agency FB Bold', arial;
+	text-decoration: underline;
+	color: black;
+}
+
+.googleMaps iframe{
+	width: 98%;
+	height: 295px;
+	margin-left: 4px;
+}
+
+.handlerResponse {
+	font-family: 'Agency FB Bold', arial;
+	font-size: 40px;
+}
+
+#linkToHomePage {
+	text-align: center;
+	font-size: 30px;
+}
+
+#contactForm #fname_error, #contactForm #lname_error, #contactForm #email_error {
+	margin-left: 30%;
+	color: red;
+}
+/*---End Contact Page --*/
+
+/*--- Start of TABLET LANDSCAPE Media Queries --*/
+@media screen and (max-width: 1095px) {
+	/*--- index Media Queries --*/
+		
+		.framingPhoto, .services {
+			float: left;
+			width: 98%;
+			margin: 0 0 0 1%;
+		}
+		
+		.servicesDesc {
+			width: 20%;
+			margin-bottom: 4%;
+			font-size: 25px;
+			margin-left: 40%;
+		}
+
+		#servicesTitle {
+			margin: 0 auto;
+			background-color: lightgrey;
+			width: 22%;
+			margin-bottom: 2%;
+		}
+
+		#servicesTitle h2{
+			font-size: 30px;
+			width: 100%;
+		}
+		
+	/*--- about-us Media Queries --*/
+		
+		.whoWeAre, .video{
+			float: left;
+			width: 98%;
+			margin: 2% 1% 0 1%;
+		}
+		
+		.whoWeAre{
+			margin-left: 0;
+		}
+		
+		.whoWeAre h3 {
+			font-size: 30px;
+		}
+		
+		#descriptionArticle {
+			font-size: 25px;
+		}
+		
+		.video {
+			height: 500px;
+			margin-bottom: 1%;
+		}
+	
+	/*--- Team Media Queries --*/
+		.team {
+			float: left;
+			width: 60%;
+			margin: 2% 0 0 20%;
+		}
+		
+		.caption {
+			font-size: 25px;
+		}
+		
+	/*--- Gallery Media Queries --*/
+	
+	/*--- Contact Media Queries --*/
+	
+		#formHeader {
+			float: left;
+			width: 98%;
+			margin: 0 2% 1% 1%;
+			font-size: 30px;
+		}
+		
+		.formDiv , .contactBottom, .contactBottom1{
+			float: left;
+			width: 98%;
+			margin: 0% 2% 1% 1%;
+			border-top: none;
+			border-right: none;
+			border-left: none;
+		}
+		
+		.formDiv {
+			font-size: 25px;
+		}
+		
+		.contactBottom1 {
+			border-bottom: none;
+		}
+		
+		#contactForm #fname_error, #contactForm #lname_error, #contactForm #email_error {
+			margin-left: 35%;
+			color: red;
+		}
+	/*--- END of TABLET LANDSCAPE Media Queries --*/
+/*--- Start of SMALL TABLET LANDSCAPE Media Queries --*/
+@media screen and (max-width: 800px) {
+	/*--- index Media Queries --*/
+		
+		.framingPhoto, .services {
+			float: left;
+			width: 98%;
+			margin: 0 0 0 1%;
+		}
+		
+		.servicesDesc {
+				width: 26%;
+				margin-bottom: 4%;
+				font-size: 20px;
+				margin-left: 37%;
+			}
+
+			#servicesTitle {
+				margin: 0 auto;
+				background-color: lightgrey;
+				width: 28%;
+				margin-bottom: 2%;
+			}
+
+			#servicesTitle h2{
+				font-size: 30px;
+				width: 100%;
+			}
+		
+	/*--- about-us Media Queries --*/
+		
+		.whoWeAre, .video{
+			float: left;
+			width: 100%;
+			margin: 2% 1% 0 1%;
+		}
+		
+		.whoWeAre, .video{
+			float: left;
+			width: 100%;
+			margin: 1% 1% 0 0;
+		}
+			
+		.video {
+			margin-bottom: 1%;
+		}
+		
+	
+	/*--- Team Media Queries --*/
+		.team {
+			float: left;
+			width: 70%;
+			margin: 2% 0 2% 15%;
+		}
+	/*--- Gallery Media Queries --*/
+	
+	/*--- Contact Media Queries --*/
+	
+		#formHeader {
+			float: left;
+			width: 98%;
+			margin: 0 2% 1% 1%;
+			font-size: 30px;
+		}
+		
+		.formDiv , .contactBottom, .contactBottom1{
+			float: left;
+			width: 98%;
+			margin: 0% 2% 1% 1%;
+			border-top: none;
+			border-right: none;
+			border-left: none;
+		}
+		
+		.contactBottom1 {
+			border-bottom: none;
+		}
+		
+		#contactForm #fname_error, #contactForm #lname_error, #contactForm #email_error {
+			margin-left: 30%;
+			color: red;
+		}
+	/*--- END of SMALL TABLET LANDSCAPE Media Queries --*/
+	/*--- Start of IPHONE 6 PLUS LANDSCAPE Media Queries --*/
+		@media screen and (max-width: 736px) {
+			.framingPhoto {
+				margin-top: 0%;
+			}
+			
+			.servicesDesc {
+				width: 26%;
+				margin-bottom: 4%;
+				font-size: 20px;
+				margin-left: 37%;
+			}
+
+			#servicesTitle {
+				margin: 0 auto;
+				background-color: lightgrey;
+				width: 28%;
+				margin-bottom: 2%;
+			}
+
+			#servicesTitle h2{
+				font-size: 30px;
+				width: 100%;
+			}
+			/*--- about-us Media Queries --*/
+		
+			.whoWeAre, .video{
+				float: left;
+				width: 100%;
+				margin: 1% 1% 0 0;
+			}
+			
+			.video {
+				margin-bottom: 1%;
+			}
+		}
+	/*--- END of IPHONE 6 PLUS LANDSCAPE Media Queries --*/
+	/*--- Start of IPHONE 6 LANDSCAPE Media Queries --*/
+		@media screen and (max-width: 667px) {
+			/*--- index Media Queries --*/
+			.framingPhoto {
+				margin-top: 0%;
+			}
+			
+			.servicesDesc {
+				width: 26%;
+				margin-bottom: 4%;
+				font-size: 20px;
+				margin-left: 37%;
+			}
+
+			#servicesTitle {
+				margin: 0 auto;
+				background-color: lightgrey;
+				width: 28%;
+				margin-bottom: 2%;
+			}
+
+			#servicesTitle h2{
+				font-size: 30px;
+				width: 100%;
+			}
+			
+			/*--- about-us Media Queries --*/
+		
+			.whoWeAre, .video{
+				float: left;
+				width: 100%;
+				margin: 1% 1% 0 0;
+			}
+			
+			.video {
+				margin-bottom: 1%;
+			}
+		}
+	/*--- END of IPHONE 6 LANDSCAPE Media Queries --*/
+/*--- Start of SMALL TABLET PORTRAIT Media Queries --*/
+@media screen and (max-width: 600px) {
+	/*--- index Media Queries --*/
+		
+		.framingPhoto{
+			float: left;
+			width: 98%;
+			margin: 0 0 0 1%;
+		}
+		
+		.servicesDesc {
+			width: 35%;
+			
+			margin-bottom: 4%;
+			font-size: 20px;
+			margin-left: 32.5%;
+		}
+
+		#servicesTitle {
+			margin: 0 auto;
+			background-color: lightgrey;
+			width: 40%;
+			margin-bottom: 2%;
+		}
+
+		#servicesTitle h2{
+			font-size: 30px;
+			width: 100%;
+		}
+		
+	/*--- about-us Media Queries --*/
+		
+		.whoWeAre, .video{
+			float: left;
+			width: 100%;
+			margin: 2% 1% 0 0;
+		}
+		
+		.video {
+			margin-bottom: 1%;
+		}
+	
+	/*--- Team Media Queries --*/
+		.team {
+			float: left;
+			width: 98%;
+			margin: 2% 0 0 0;
+		}
+	/*--- Gallery Media Queries --*/
+	
+	/*--- Contact Media Queries --*/
+	
+		#formHeader {
+			float: left;
+			width: 98%;
+			margin: 0 2% 1% 1%;
+			font-size: 30px;
+		}
+		
+		.formDiv , .contactBottom, .contactBottom1{
+			float: left;
+			width: 98%;
+			margin: 0% 2% 1% 1%;
+			border-top: none;
+			border-right: none;
+			border-left: none;
+		}
+		
+		.contactBottom1 {
+			border-bottom: none;
+		}
+		
+		.contactBottom h3 {
+			font-size: 25px;
+		}
+		
+		.contactBottom .footercontact {
+			font-size: 20px;
+		}
+		
+		#contactForm #fname_error, #contactForm #lname_error, #contactForm #email_error {
+			margin-left: 28%;
+			color: red;
+			font-size: 22px;
+		}
+	/*--- END of SMALL TABLET PORTRAIT Media Queries --*/
+	/*--- Start of IPHONE 5 LANDSCAPE Media Queries --*/
+		@media screen and (max-width: 568px) {
+			/*--- index Media Queries --*/
+			.framingPhoto {
+				margin-top: -2%;
+			}
+			.servicesDesc {
+				width: 32%;
+				margin-bottom: 4%;
+				font-size: 20px;
+				margin-left: 34%;
+			}
+			#servicesTitle {
+				margin: 0 auto;
+				background-color: lightgrey;
+				width: 40%;
+				margin-bottom: 2%;
+			}
+
+			#servicesTitle h2{
+				font-size: 30px;
+				width: 100%;
+			}
+			/*--- about-us Media Queries --*/
+			.whoWeAre, .video{
+				float: left;
+				width: 98%;
+				margin: 2% 0 0 1%;
+			}
+			
+			.video {
+				margin-bottom: 1%;
+			}
+		}
+	/*--- END of IPHONE 5 LANDSCAPE Media Queries --*/
+/*--- Start of MOBILE LANDSCAPE Media Queries --*/
+@media screen and (max-width: 480px) {
+	/*--- index Media Queries --*/
+		
+		.framingPhoto {
+			float: left;
+			width: 98%;
+			margin: 0 0 0 1%;
+		}
+		
+		.servicesDesc {
+			width: 38%;
+			margin-bottom: 4%;
+			font-size: 20px;
+			margin-left: 30%;
+		}
+		
+		#servicesTitle {
+			margin: 0 auto;
+			background-color: lightgrey;
+			width: 42%;
+			margin-bottom: 2%;
+		}
+
+		#servicesTitle h2{
+			font-size: 30px;
+			width: 100%;
+		}
+		
+	/*--- about-us Media Queries --*/
+		
+		.whoWeAre, .video{
+			float: left;
+			width: 98%;
+			margin: 2% 0 0 1%;
+		}
+		
+		.video {
+			margin-bottom: 1%;
+		}
+	
+	/*--- Team Media Queries --*/
+		.team {
+			float: left;
+			width: 98%;
+			margin: 2% 0 0 0;
+		}
+	/*--- Gallery Media Queries --*/
+	
+	/*--- Contact Media Queries --*/
+	
+		#formHeader {
+			float: left;
+			width: 98%;
+			margin: 0 2% 1% 1%;
+			font-size: 30px;
+		}
+		
+		.formDiv , .contactBottom, .contactBottom1{
+			float: left;
+			width: 98%;
+			margin: 0% 2% 1% 1%;
+			border-top: none;
+			border-right: none;
+			border-left: none;
+		}
+		
+		.contactBottom1 {
+			border-bottom: none;
+		}
+		
+		#contactForm #fname_error, #contactForm #lname_error, #contactForm #email_error {
+			margin-left: 28%;
+			color: red;
+			font-size: 18px;
+		}
+	/*--- END of MOBILE LANDSCAPE Media Queries --*/
+/*--- Start of MOBILE PORTRAIT Media Queries --*/
+@media screen and (max-width: 320px) {
+	/*--- index Media Queries --*/
+		
+		.framingPhoto {
+			float: left;
+			width: 100%;
+			margin: -3% 0 0 0;
+		}
+		
+		.framingPhoto img{
+			border-radius: 0;
+		}
+		
+		.servicesDesc {
+			width: 38%;
+			margin: 0 auto;
+			margin-bottom: 4%;
+			font-size: 20px;
+		}
+		
+		#servicesTitle {
+			margin: 0 auto;
+			background-color: lightgrey;
+			width: 48%;
+			margin-bottom: 2%;
+		}
+
+		#servicesTitle h2{
+			font-size: 30px;
+			width: 100%;
+		}
+		
+	/*--- about-us Media Queries --*/
+		
+		.whoWeAre, .video{
+			float: left;
+			width: 98%;
+			height: auto;
+			margin: 2% 0 0 1%;
+		}
+		
+		article {
+			font-size: 23px;
+			word-spacing: 2px;
+		}
+		
+		.whoWeAre {
+			margin-right: 2%;
+		}
+		
+		.video {
+			height: 350px;
+			margin-bottom: 1%;
+		}
+	
+	/*--- Team Media Queries --*/
+		.team {
+			float: left;
+			width: 98%;
+			margin: 2% 0 0 0;
+		}
+		
+		.caption {
+			font-size: 20px;
+		}
+	/*--- Gallery Media Queries --*/
+	
+	/*--- Contact Media Queries --*/
+	
+		#formHeader {
+			float: left;
+			width: 98%;
+			margin: 0 2% 1% 1%;
+			font-size: 20px;
+		}
+		
+		.formDiv , .contactBottom, .contactBottom1{
+			float: left;
+			width: 98%;
+			margin: 0% 2% 1% 1%;
+			border-top: none;
+			border-right: none;
+			border-left: none;
+		}
+		
+		.contactBottom1 {
+			border-bottom: none;
+		}
+		
+		.formDiv {
+			font-size: 18px;
+		}
+		
+		.contactBottom .footercontact {
+			font-size: 18px;
+		}
+		
+		#contactForm #fname_error, #contactForm #lname_error, #contactForm #email_error {
+			margin-left: 21%;
+			color: red;
+			font-size: 15px;
+		}
+	/*--- END of MOBILE PORTRAIT Media Queries --*/
+	
+		
+}

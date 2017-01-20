@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<title>Home</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="javascript/jquery-3.1.1.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style1.css">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	</head>
+	
+	<body>
+		
+		<div id="wrapper">
+			
+			<header>
+				<div id="companyName">
+					<h2>Presidential Carpentry</h2>
+				</div>
+				
+				<div id="logo">
+					<a href="index"><img src="images/logo250.png" alt="logo"/></a>
+				</div>
+			</header>
+			
+			
+			
+			<div id="banner-wrapper">
+		<!---Start Navigation Bar -->
+				<div class="nav-wrap">
+					<nav class="navigation">
+						<span class="toggle-btn"><img src="images/hambtn.png"></span>
+						<div class="nav">
+							<ul class="nav-menu">
+								<li><a class="active" href="index">Home</a></li>
+								<li><a href="about-us">About Us</a></li>
+								<li><a href="team">Team</a></li>
+								<li><a href="gallery">Gallery</a></li>
+								<li><a href="contact">Contact</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+		<!---End Navigation Bar -->
+			</div>
+		<!---END Banner Wrapper-->
+		<!---Start Body -->
+				<div class="framingPhoto">
+					<img src="images/framingHome.jpg" alt="framing Image"/></a>
+				</div>
+				
+				<div  id="servicesTitle">
+					<h2>Services</h2>
+				</div>
+				
+				
+					<!--<img src="images/FRAMING.PNG" alt="services Image"/></a>-->
+					<div class="servicesDesc">
+						FRAMING
+					</div>
+				
+				
+				
+					<!--<img src="images/INTERIORTRIM.png" alt="services Image"/></a>-->
+					<div class="servicesDesc">
+						INTERIOR TRIM
+					</div>
+				
+				
+				
+					<!--<img src="images/cornice.jpg" alt="services Image"/></a>-->
+					<div class="servicesDesc">
+						CORNICE
+					</div>
+				
+				
+				
+					<!--<img src="images/siding.jpg" alt="services Image"/></a>-->
+					<div class="servicesDesc">
+						BUILT INS
+					</div>
+				
+				
+				
+					<!--<img src="images/windows.jpg" alt="services Image"/></a>-->
+					<div class="servicesDesc">
+						WINDOWS
+					</div>
+				
+				
+				
+					<!--<img src="images/doors.jpg" alt="services Image"/></a>-->
+					<div class="servicesDesc">
+						DOORS
+					</div>
+				
+		
+		
+		<!---End Body -->
+		<!--Start Footer-->
+			<footer>
+				<div class="one-third">
+					<h3>Contact Us</h3>
+					<br />
+					<p class="footercontact">Presidential Carpentry LLC<br/>
+						202-361-9444<br/><br/>
+						8230 Boone Blvd Suite 340<br/>
+						Vienna, VA 22182<br/>
+						United States<br />
+						info@presidentialcarpentry.com
+					</p>
+				</div>
+				
+				<div class="two-third">
+					<h3>Connect With Us</h3>
+					<br/>
+					<ul class="social">
+						<li><a href="https://www.facebook.com/presidentialcarpentry/?fref=ts"><img src="images/FacebookBW.png"/></a></li>
+						<li><a href="https://www.instagram.com/presidentialcarpentry/"><img src="images/instagramBW.png"/></a></li>
+					</ul>
+				</div>
+				<div class="three-third">
+					<h3>Navigate</h3>	
+					
+					<ul class="navigate">
+						<li><a href="index">Home</a></li>
+						<li><a href="about-us">About Us</a></li>
+						<li><a href="team">Team</a></li>
+						<li><a href="gallery">Gallery</a></li>
+						<li><a href="contact">Contact</a></li>
+					</ul>
+				</div>
+			</footer>
+		
+		<!--End Footer-->
+			<p id="copyright">&copy; Presidential Carpentry LLC, 2017. All Rights Reserved.</p>
+		</div>
+		
+		<script>
+					$(document).ready(function(){
+						
+						$('span.toggle-btn').click(function() {
+							$('ul.nav-menu').slideToggle();
+						});
+						
+						$(window).resize(function() {
+						     if($(window).width() > 640 ) {
+								$('ul.nav-menu').removeAttr('style');
+							 }
+						});
+						
+					});
+
+		</script>
+		
+	</body>
+</html>

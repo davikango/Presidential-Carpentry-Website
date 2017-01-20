@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<title>Team</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="javascript/jquery-3.1.1.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style1.css">
+		<link rel="stylesheet" href="css/sliderStyle.css">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	</head>
+	
+	<body>
+		
+		<div id="wrapper">
+			
+			<header>
+				<div id="companyName">
+					<h2>Presidential Carpentry</h2>
+				</div>
+				
+				<div id="logo">
+					<a href="index"><img src="images/logo250.png"/></a>
+				</div>
+			</header>
+			
+			<div class="clearfix"></div>
+			
+			<div id="banner-wrapper">
+		<!---Start Navigation Bar -->
+				<div class="nav-wrap">
+					<nav class="navigation">
+					<span class="toggle-btn"><img src="images/hambtn.png"></span>
+						<div class="nav">
+							<ul class="nav-menu">
+								<li><a href="index">Home</a></li>
+								<li><a href="about-us">About Us</a></li>
+								<li><a class="active" href="team">Team</a></li>
+								<li><a href="gallery">Gallery</a></li>
+								<li><a href="contact">Contact</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+		<!---End Navigation Bar -->
+			</div>
+		<!---END Banner Wrapper-->
+		<!---Start Body -->
+			<div class="team">  
+				<img src="images/team/sven.jpg" alt="Sven">
+			  <div class="caption">Sven Barnes<br /><b>President</b></div>
+			</div>
+			
+			<div class="team">
+			  <!--<a target="_blank" href="fjords.jpg"></a>-->
+				<img src="images/team/ed.jpg" alt="Ed Knight">
+			  
+			  <div class="caption">Ed Knight<br/><b>Vice President</b></div>
+			</div>
+			
+			<div class="team">
+			  <!--<a target="_blank" href="fjords.jpg"></a>-->
+				<img src="images/team/chris.jpg" alt="Chris Dooher">
+			  
+			  <div class="caption">Chris Dooher<br/><b>General Manager</b></div>
+			</div>
+			
+			<div class="team">
+			  <!--<a target="_blank" href="fjords.jpg"></a>-->
+				<img src="images/team/natasha.jpg" alt="Natasha">
+			  
+			  <div class="caption">Natasha Somma<br/><b>Production Manager</b></div>
+			</div>
+			
+			<div class="team">
+			  <!--<a target="_blank" href="fjords.jpg"></a>-->
+				<img src="images/team/manuel.jpg" alt="MANUEL">
+			 
+			  <div class="caption">Manuel Prado<br/><b>Field Manager</b></div>
+			</div>
+			
+			<div class="team">
+			  <!--<a target="_blank" href="fjords.jpg"></a>-->
+				<img src="images/team/dave.jpg" alt="Dave Ashburn">
+			  
+			  <div class="caption">Dave Ashburn<br/><b>Field Manager</b></div>
+			</div>
+			
+			<div id="teamContainer">
+				<div id="slideshow" class="cycle-slideshow" 
+					data-cycle-fx = "fade"
+					data-cycle-speed = "600"
+					data-cycle-timeout = "3000"
+					data-cycle-pager = "#pager"
+					data-cycle-pager-template = "<a href='#'><img src='{{src}}' height=100 width=150/>"
+					data-cycle-next = "#next"
+					data-cycle-prev = "#prev"
+					data-cycle-manual-fx = "scrollHorz"
+					data-cycle-manual-speed = "480"
+					data-cycle-pager-fx = "fade">
+				
+					<img src="images/team/c.jpg" alt="team Picture 1">
+					<img src="images/team/b.jpg" alt="team picture 2">
+					<img src="images/team/a.jpg" alt="team picture 3">
+				</div>
+		
+			<div id="pager"></div>
+			
+				<img id="prev" src="images/prev1.svg"/>
+				<img id="next" src="images/next1.svg"/>
+			</div>
+		
+		
+		<!---End Body -->
+		<!--Start Footer-->
+			<footer>
+				<div class="one-third">
+					<h3>Contact Us</h3>
+					<br />
+					<p class="footercontact">Presidential Carpentry LLC<br/>
+						202-361-9444<br/><br/>
+						8230 Boone Blvd Suite 340<br/>
+						Vienna, VA 22182<br/>
+						United States<br />
+						info@presidentialcarpentry.com
+					</p>
+				</div>
+				
+				<div class="two-third">
+					<h3>Connect With Us</h3>
+					<br/>
+					<ul class="social">
+						<li><a href="https://www.facebook.com/presidentialcarpentry/?fref=ts"><img src="images/FacebookBW.png"/></a></li>
+						<li><a href="https://www.instagram.com/presidentialcarpentry/"><img src="images/instagramBW.png"/></a></li>
+					</ul>
+				</div>
+				<div class="three-third">
+					<h3>Navigate</h3>	
+					
+					<ul class="navigate">
+						<li><a href="index">Home</a></li>
+						<li><a href="about-us">About Us</a></li>
+						<li><a href="team">Team</a></li>
+						<li><a href="gallery">Gallery</a></li>
+						<li><a href="contact">Contact</a></li>
+					</ul>
+				</div>
+			</footer>
+		
+		<!--End Footer-->
+			<p id="copyright">&copy; Presidential Carpentry LLC, 2017. All Rights Reserved.</p>
+		</div>
+		<script src="javascript/cycle2Slider.js"></script>
+		<script>
+					$(document).ready(function(){
+						
+						$('span.toggle-btn').click(function() {
+							$('ul.nav-menu').slideToggle();
+						});
+						
+						$(window).resize(function() {
+						     if($(window).width() > 640 ) {
+								$('ul.nav-menu').removeAttr('style');
+							 }
+						});
+						
+					});
+
+		</script>
+	</body>
+</html>

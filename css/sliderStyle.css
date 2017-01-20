@@ -1,0 +1,268 @@
+	
+	*{
+        margin: 0;
+        padding: 0;
+    }
+    #container {
+        width: 100%;
+        height: 600px;
+        position: relative;
+        overflow: hidden;
+        background: #ff00ff;
+    }
+	
+	#teamContainer {
+		width: 80%;
+		margin: 0 auto;
+        height: 600px;
+        position: relative;
+        overflow: hidden;
+        background: #ff00ff;
+	}
+	
+	
+    #slideshow {
+        height: 100%;
+        width: 100%;
+    }
+    #slideshow img {
+        height: 100%;
+        width: 100%;
+    }
+	
+	#pager img {
+		margin: 18px 5px;
+		opacity: 0.3;
+		transition: all .3s ease-in-out 0s;
+	}
+	
+	#pager img:hover{
+		opacity: 1;
+		transform:scale(1.05);
+	    z-index:100;
+	}
+	
+    #pager {
+		text-align: center;
+        height: 120px;
+        width: 100%;
+        position: absolute;
+        bottom: 5%;
+        background: rgba(0,0,0,.5);
+        z-index: 1000;
+        opacity: 0;
+        transition: all 0.3s ease-in-out 0s;
+    }
+    #pager:hover {
+       opacity: 1;
+    }    
+    
+    #prev {
+        height: 120px;
+        width: 120px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left:0;
+        margin: auto 10px;
+		z-index: 1000;
+		cursor: pointer;
+		margin-left: -3%;
+    }
+     #next {
+        height: 120px;
+        width: 120px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right:0;
+        margin: auto 10px;
+		z-index: 1000;
+		cursor: pointer;
+		margin-right: -3%;
+    }
+	
+/*--- Start of TABLET LANDSCAPE Media Queries --*/
+@media screen and (max-width: 1095px) {
+	/*--- Gallery Media Queries --*/
+		#container{
+			float: left;
+			width: 98%;
+			height: 550px;
+			margin-left: 1%;
+		}
+		
+		#teamContainer{
+			float: left;
+			width: 100%;
+			height: 650px;
+			
+		}
+		
+		#pager img {
+			width: 20%;
+		}
+		
+		#pager {
+			height: 60px;
+			text-align: center;
+		}
+		
+		#next {
+			height: 60px;
+			margin-right: -3%;
+		}
+		
+		#prev {
+			height: 60px;
+			margin-left: -3%;
+		}
+	/*--- END of SMALL TABLET LANDSCAPE Media Queries --*/
+/*--- Start of SMALL TABLET LANDSCAPE Media Queries --*/
+@media screen and (max-width: 800px) {
+	/*--- Gallery Media Queries --*/
+		#container{
+			float: left;
+			width: 98%;
+			height: 450px;
+			margin-left: 1%;
+		}
+		
+		#teamContainer{
+			float: left;
+			width: 100%;
+			height: 490px;
+			
+		}
+		
+		#pager img {
+			width: 20%;
+		}
+		
+		#pager {
+			height: 60px;
+			text-align: center;
+		}
+		
+		#next {
+			height: 60px;
+			margin-right: -5%;
+		}
+		
+		#prev {
+			height: 60px;
+			margin-left: -5%;
+		}
+	/*--- END of SMALL TABLET LANDSCAPE Media Queries --*/
+/*--- Start of SMALL TABLET PORTRAIT Media Queries --*/
+@media screen and (max-width: 600px) {
+	/*--- Gallery Media Queries --*/
+		#container{
+			float: left;
+			width: 98%;
+			height: 300px;
+			margin-left: 1%;
+		}
+		
+		#teamContainer{
+			float: left;
+			width: 100%;
+			height: 370px;
+			
+		}
+		
+		#pager img {
+			width: 20%;
+		}
+		
+		#pager {
+			height: 60px;
+			text-align: center;
+		}
+		
+		#next {
+			height: 60px;
+			margin-right: -7%;
+		}
+		
+		#prev {
+			height: 60px;
+			margin-left: -7%;
+		}
+	/*--- END of SMALL TABLET PORTRAIT Media Queries --*/
+/*--- Start of MOBILE LANDSCAPE Media Queries --*/
+@media screen and (max-width: 480px) {
+	/*--- Gallery Media Queries --*/
+		#container{
+			float: left;
+			width: 98%;
+			height: 300px;
+			margin-left: 1%;
+		}
+		
+		#teamContainer{
+			float: left;
+			width: 98%;
+			height: 300px;
+			margin-left: 1%;
+		}
+		
+		#pager img {
+			width: 20%;
+		}
+		
+		#pager {
+			height: 60px;
+			text-align: center;
+		}
+		
+		#next {
+			height: 60px;
+			margin-right: -10%;
+		}
+		
+		#prev {
+			height: 60px;
+			margin-left: -10%;
+		}
+	/*--- END of MOBILE LANDSCAPE Media Queries --*/
+	
+	/*--- Start of MOBILE PORTRAIT Media Queries --*/
+@media screen and (max-width: 320px) {
+	/*--- Gallery Media Queries --*/
+		#container{
+			float: left;
+			width: 98%;
+			height: 250px;
+			margin-left: 1%;
+		}
+		
+		#teamContainer{
+			float: left;
+			width: 98%;
+			height: 250px;
+			margin-left: 1%;
+			margin-bottom: 1%;
+		}
+		
+		#pager img {
+			width: 20%;
+		}
+		
+		#pager {
+			height: 60px;
+			text-align: center;
+		}
+		
+		#next {
+			height: 60px;
+			margin-right: -10%;
+		}
+		
+		#prev {
+			height: 60px;
+			margin-left: -10%;
+		}
+	/*--- END of MOBILE PORTRAIT Media Queries --*/
+	
+}
